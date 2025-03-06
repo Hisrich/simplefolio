@@ -1,14 +1,3 @@
-<!--
-  Hello!
-  -
-  Simplefolio is a clean and responsive portfolio template for Developers!
-  Created by Jacobo Martinez.
-  -
-  Github Repo: https://github.com/cobiwave/simplefolio/
-  Readme: https://github.com/cobiwave/simplefolio/README.md
-  -
-  For business & inquires, contact me -> jacobojavier98@gmail.com
--->
 <!DOCTYPE html>
 <html lang="en" class="sr">
   <head>
@@ -46,9 +35,9 @@
     <section id="hero" class="jumbotron">
       <div class="container">
         <h1 class="hero-title load-hidden">
-          Hi, my name is <span class="text-color-main">Nicholas Hisrich Addisi</span>
+          <span class="text-color-main">Nicholas Hisrich Addisi</span>
           <br />
-          I'm an ML/AI Engineer.
+          ML/AI Engineer
         </h1>
         <p class="hero-cta load-hidden">
           <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
@@ -79,7 +68,7 @@
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__info load-hidden">
               <p class="about-wrapper__info-text">
-                I am a Machine Learning & AI Engineer specializing in predictive modeling, data analysis, and AI-driven automation. With expertise in Python, SQL, Scikit-Learn, TensorFlow, XGBoost, and Flask, I build intelligent solutions that transform data into actionable insights. 
+                I am a Machine Learning & AI Engineer specializing in predictive modeling, data analysis, and AI-driven automation. With expertise in Python, SQL, Scikit-Learn, TensorFlow, TensorFlow, XGBoost, and Flask, I build intelligent solutions that transform data into actionable insights. 
               </p>
               <p class="about-wrapper__info-text">
                 I also build AI-powered Telegram bots to automate workflows and optimize processes
@@ -115,7 +104,7 @@
                 <div>
                   <p class="mb-4">
                     A machine learning-powered web app that predicts the likelihood of diabetes based on factors like age, blood pressure, and general health status. Built with XGBoost and optimized through parameter tuning, it features data preprocessing, imbalanced dataset handling, and an interactive Streamlit interface. While not for clinical use, this project highlights the role of data and AI in medical diagnostics, emphasizing the importance of feature engineering and model optimization.
-
+                    <br>
                     Tech Stack: Python, Scikit-Learn, XGBoost, Pandas, NumPy, Imbalanced-Learn, Matplotlib, Seaborn, Streamlit.
                   </p>
                 </div>
@@ -167,7 +156,7 @@
                 <div>
                   <p class="mb-4">
                     A machine learning model that predicts pet adoption likelihood based on factors like age, breed, and health status using a U.S. pet adoption dataset. Built with XGBoost and optimized with GridSearchCV, it achieves 78% accuracy, providing insights for shelters and adoption agencies. A Power BI dashboard visualizes key trends, helping improve adoption strategies.
-
+                    <br>
                     Tech Stack: Python, Scikit-Learn, XGBoost, Pandas, NumPy, Power BI, Matplotlib, Seaborn.
                   </p>
                 </div>
@@ -215,11 +204,63 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">SV Downloader: Telegram Video Downloader Bot</h3>
+                <div>
+                  <p class="mb-4">
+                    A Telegram bot for seamless video downloads from YouTube, Instagram, Twitter, TikTok (no watermark), LinkedIn, Facebook, and Pinterest. Built with Python (pyTelegramBotAPI) and web scraping, it fetches videos instantly—just paste a link, and the bot provides the video or a direct download link.
+                    <br>
+                    Tech Stack: Python, Selenium, pyTelegramBotAPI, Telegram API
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://t.me/SVDownloader_bot"
+                >
+                  See Live
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/Hisrich/SV_Downloader_Bot"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/SVdownloader.jpg"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
                 <h3 class="project-wrapper__text-title">Payment Gateway API: Paystack Integration</h3>
                 <div>
                   <p class="mb-4">
                     A Flask-based Payment Gateway API integrating Paystack for secure transactions. This project enhances backend development skills by implementing payment processing, API documentation, and CI/CD automation with GitHub Actions. Successfully deployed on Render, it demonstrates best practices in API development, deployment, and integration.
-
+                    <br>
                     Tech Stack: Flask, Paystack API, GitHub Actions, Render, REST API, Postman
                   </p>
                 </div>
@@ -270,14 +311,19 @@
     <!-- **** Contact Section **** -->
     <section id="contact">
       <div class="container">
-        <h2 class="section-title">Contact</h2>
+        <h2 class="section-title">Contacts</h2>
         <div class="contact-wrapper load-hidden">
-          <p class="contact-wrapper__text">CONTACT ME ON</p>
+          <!-- <p class="contact-wrapper__text">REACH ME ON</p> -->
+           <a 
+           class="cta-btn cta-btn--resume"
+           href="tel:+233545916652">
+           Call Me
+          </a>
           <a
             rel="noreferrer"
             target="_blank"
             class="cta-btn cta-btn--resume"
-            href="mailto:addisinicholas@email.com"
+            href="mailto:addisinicholas@gmail.com"
             >Email Me</a
           >
         </div>
@@ -292,14 +338,16 @@
           <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
         </a>
         <div class="social-links">
-          <a rel="noreferrer" href="#!" target="_blank">
-            <i class="fa fa-twitter fa-inverse"></i>
+          <a rel="noreferrer" href="https://wa.me/233594791756" target="_blank">
+            <i class="fa fa-whatsapp fa-inverse"></i>
           </a>
           <a rel="noreferrer" href="https://www.linkedin.com/in/nicholashisrichaddisi?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">
             <i class="fa fa-linkedin fa-inverse"></i>
           </a>
           <a rel="noreferrer" href="https://github.com/Hisrich/" target="_blank">
             <i class="fa fa-github fa-inverse"></i>
+          <a rel="noreferrer" href="https://t.me/his_rich" target="_blank">
+            <i class="fa fa-telegram fa-inverse"></i>
           </a>
         </div>
 
